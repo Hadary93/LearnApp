@@ -1,0 +1,73 @@
+.word-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: left;
+    justify-items: left;
+    width:100%;
+    height: 600px;
+}
+.word-page-table{
+    overflow: auto;
+    
+    width: 100%;
+    height: 80%;
+}
+.word-page-sentences{
+    overflow: auto;
+    grid-column: 2;
+    width: 100%;
+    height: 80%;
+}
+.previous-button{
+    grid-column: 1;
+    background-color: transparent;
+    transition: color 0.5s ease ;
+}
+.previous-button:hover{
+    color: #ffb703;
+    transition: color 0.5s ease ;
+}
+.next-button{
+    grid-column: 3;
+    transition: color 0.5s ease ;
+}
+.next-button:hover{
+    color: #ffb703;
+    transition: color 0.5s ease ;
+}
+.word-set{
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.word-tools{
+    display: flex;
+    flex-direction: column;
+}
+
+.word-text {
+    font-weight: 400;
+    font-size: medium;
+    padding: 5px;  /* Optional: adds space inside the border */
+  }
+
+
+.add-button{
+    position: fixed;
+    top: 50%;  /* Vertical centering */
+    right: 5%;  /* Horizontal centering */
+    background-color: transparent;
+    transform: scale(4); /* Adjust for perfect centering */
+    transition: transform 1s ease,
+}
+
+.add-button:hover {
+    transform: rotate(45deg) scale(6);
+    transition: transform 0.5s ease;
+}

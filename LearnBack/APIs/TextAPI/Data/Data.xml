@@ -1,0 +1,23 @@
+﻿<Words>
+    <Word>
+        <Id>1</Id>
+        <WordText>Hallo</WordText>
+        <Favourite>true</Favourite>
+        <Difficulty>2</Difficulty>
+        <WordCount>1</WordCount>
+    </Word>
+    <Word>
+        <Id>2</Id>
+        <WordText>Programmieren</WordText>
+        <Favourite>false</Favourite>
+        <Difficulty>4</Difficulty>
+        <WordCount>3</WordCount>
+    </Word>
+    <Word>
+        <Id>3</Id>
+        <WordText>Computer</WordText>
+        <Favourite>true</Favourite>
+        <Difficulty>3</Difficulty>
+        <WordCount>2</WordCount>
+    </Word>
+</Words>

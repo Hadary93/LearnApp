@@ -1,0 +1,11 @@
+@VoiceAPI_HostAddress = https://localhost:7289
+
+GET {{VoiceAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+@voiceId=string
+GET {{VoiceAPI_HostAddress}}/voice/{{voiceId}}
+
+###

@@ -1,0 +1,53 @@
+@Learn_HostAddress = https://localhost:7194
+
+GET {{Learn_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Learn_HostAddress}}/word
+
+###
+
+
+###
+
+POST {{Learn_HostAddress}}/word
+Content-Type: application/json
+
+{
+  //Word
+}
+
+###
+
+GET {{Learn_HostAddress}}/word/GetGroups
+
+###
+
+@key=string
+DELETE {{Learn_HostAddress}}/word/{{key}}
+
+###
+
+POST {{Learn_HostAddress}}/word
+Content-Type: application/json
+
+{
+  //Word
+}
+
+###
+
+GET {{Learn_HostAddress}}/article
+
+###
+
+@id=0
+GET {{Learn_HostAddress}}/{{id}}
+
+###
+
+GET {{Learn_HostAddress}}/sentence
+
+###

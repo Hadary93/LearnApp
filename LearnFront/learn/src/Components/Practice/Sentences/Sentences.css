@@ -1,0 +1,29 @@
+.sentences {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 10fr 20fr;
+  height: 800px;
+  margin-top: 5%;
+  justify-items: center;
+  align-items: center;
+}
+
+.ant-card{
+  background-color: white;
+}
+.ant-card-selected{
+  background-color: var(--theme-color);
+}
+
+.ant-card-selected-true{
+  background-color: lightgreen;
+  pointer-events: none;
+}
+.ant-card:hover{
+  border-color: var(--theme-color);
+}
+
+.sentence-correct{
+  background-color: green;
+  transition: background-color 1s ease;
+}

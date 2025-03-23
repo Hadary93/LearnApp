@@ -1,0 +1,29 @@
+.top-menu{
+  position: fixed;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  background-color: var(--theme-color);
+  height: 8%;
+  width: 100%;
+  z-index: 1000;
+}
+.ant-menu-overflow{
+  background-color: var(--theme-color);
+}
+
+.ant-modal-footer{
+  display: none;
+}
+.ant-menu-item{
+  align-content: center;
+}
+
+.ant-menu-item-selected{
+  align-content: center;
+  width: 20%;
+  font-weight: bold;
+  transition: width 0.5s ease;
+}

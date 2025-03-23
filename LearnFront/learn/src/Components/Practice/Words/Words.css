@@ -1,0 +1,23 @@
+.words {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 600px;
+  margin-top: 10%;
+  justify-items: center;
+}
+
+.ant-card{
+  background-color: white;
+}
+.ant-card-selected{
+  background-color: var(--theme-color);
+}
+.ant-card-selected-true{
+  background-color: lightgreen;
+  pointer-events: none;
+}
+.ant-card:hover{
+  border-color: var(--theme-color);
+}

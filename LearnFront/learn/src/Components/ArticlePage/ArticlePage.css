@@ -1,0 +1,62 @@
+.article-page{
+  background-color: transparent;
+  margin-top: 10px;
+  height: 600px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+}
+
+.playIcon{
+  grid-column: 3;
+  transform: scale(2);
+  transition: transform 0.3s ease;
+}
+.playIcon:hover{
+  grid-column: 3;
+  transform: scale(3);
+  transition: transform 0.3s ease;
+}
+.sentencePlayIcon{
+  color: transparent;
+  grid-column: 3;
+  transition: transform 0.3s ease;
+}
+.sentencePlayIcon:hover{
+  color: black;
+  grid-column: 3;
+  transform: scale(2);
+  transition: transform 0.3s ease;
+}
+.word{
+  display: inline;
+  margin: 0;
+  cursor: pointer;
+}
+.word:hover{
+  background-color: lightgreen;
+  transition: babackground-color 0.3s ease;
+}
+
+.sentence{
+  display: inline;
+  margin: 0;
+  cursor: pointer;
+}
+.sentence:hover{
+  background-color: var(--theme-color);
+  transition: babackground-color 0.3s ease;
+}
+
+p{
+  display: inline;
+  margin: 0;
+  cursor: pointer;
+}
+h1{
+  display: inline;
+  margin: 0;
+  cursor: pointer;
+}

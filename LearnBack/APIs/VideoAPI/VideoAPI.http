@@ -1,0 +1,31 @@
+@VideoAPI_HostAddress = https://localhost:7015
+
+GET {{VideoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+@fileName=string
+GET {{VideoAPI_HostAddress}}/video/{{fileName}}
+
+###
+
+@videoName=string
+GET {{VideoAPI_HostAddress}}/video/subtitle/{{videoName}}
+
+###
+
+@text=string
+GET {{VideoAPI_HostAddress}}/video/subtitle/translate/{{text}}
+
+###
+
+GET {{VideoAPI_HostAddress}}/video/{{videoName}}
+
+###
+
+@key=string
+GET {{VideoAPI_HostAddress}}/video/subtitle/translate/apiKey/{{key}}
+
+
+###
