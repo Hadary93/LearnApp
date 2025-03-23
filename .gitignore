@@ -1,0 +1,11 @@
+#ignore everything
+*
+# But do not ignore the .gitignore file itself
+!.gitignore
+**/*.mp3
+**/*.mp4
+
+!ReadMe
+!LearnBack/**
+!LearnFront/**
+
