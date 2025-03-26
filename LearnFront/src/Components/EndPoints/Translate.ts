@@ -1,18 +1,16 @@
 const translateAPI = "https://localhost:7283/translate"
 
 
-export async function DeepLAPIKey(key:string | null): Promise<string[] | undefined> {
+export async function DeepLAPIKey(key:string | null): Promise<boolean| undefined> {
   try {
     const response = await fetch(`${translateAPI}/api-key/${key}`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      }
+      method: "POST"
     });
+    console.log(response)
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    return await response.json() as string[];
+    return await response.ok;
   } catch (error) {
     console.error(error);
   }

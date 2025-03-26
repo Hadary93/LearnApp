@@ -7,8 +7,9 @@ using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var dbPath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)?.Parent?.Parent?.Parent?.FullName??"", builder.Configuration.GetConnectionString("DefaultConnection") ?? "");
 builder.Services.AddDbContext<LanguageContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(@"Data Source="+ @dbPath));
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(SQLliteRepo<>));
 builder.Services.AddControllers();

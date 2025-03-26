@@ -1,6 +1,7 @@
-import { Button, Checkbox, Form, FormProps, Input } from 'antd';
+import { Button, Checkbox, Form, FormProps, Input, message } from 'antd';
 import './Login.css';
 import { AppContext, useAppContext } from '../AppContext';
+import { DeepLAPIKey } from '../EndPoints/Translate';
 
 type FieldType = {
     username?: string;
@@ -10,17 +11,41 @@ type FieldType = {
 
 const onFinishFailed: FormProps<FieldType>['onFinishFailed'] = (errorInfo) => {
     console.log('Failed:', errorInfo);
-    
+
 };
 
 export default function Login() {
     const { setIsLoginOpen } = useAppContext(AppContext);
+    const [messageApi,contextHolder] = message.useMessage();
 
     const onFinish: FormProps<FieldType>['onFinish'] = (values) => {
         console.log('Success:', values);
-        setIsLoginOpen(false);
+        const activateDeepL = async () => {
+            const success = await DeepLAPIKey(values.password ?? '');
+            if (success != undefined && success) {
+                setIsLoginOpen(false);
+                const success = () => {
+                    messageApi.open({
+                        type: 'success',
+                        content: 'DeepL activated',
+                    });
+                };
+                success();
+            } else {
+                const error = () => {
+                    messageApi.open({
+                        type: 'error',
+                        content: 'Something went wrong',
+                    });
+                };
+                error();
+            }
+        }
+
+        activateDeepL();
     };
     return (
+        <>
         <Form
             name="basic"
             labelCol={{ span: 8 }}
@@ -57,6 +82,8 @@ export default function Login() {
                 </Button>
             </Form.Item>
         </Form>
+        {contextHolder}
+        </>
     );
 }
 

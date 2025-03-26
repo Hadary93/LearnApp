@@ -3,39 +3,24 @@
   "WorkspaceRootPath": "C:\\Hadary\\Personal\\Learn\\LearnBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20FC9271-27B4-40E7-AECB-EBAF7E6CDF3C}|Services\\LanguageServices\\LanguageServices.csproj|c:\\hadary\\personal\\learn\\learnback\\services\\languageservices\\languageservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{20FC9271-27B4-40E7-AECB-EBAF7E6CDF3C}|Services\\LanguageServices\\LanguageServices.csproj|solutionrelative:services\\languageservices\\languageservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEFDFF68-12D9-4359-935A-769B174FC626}|APIs\\ContentAPI\\ContentAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\contentapi\\contentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BEFDFF68-12D9-4359-935A-769B174FC626}|APIs\\ContentAPI\\ContentAPI.csproj|solutionrelative:apis\\contentapi\\contentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\ContentAPI\\Controllers\\ContentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Article\\ArticlesCreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AD376DE-0F55-42E0-98D9-ECE8D77F785C}|APIs\\TranslateAPI\\TranslateAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\translateapi\\controllers\\translatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD376DE-0F55-42E0-98D9-ECE8D77F785C}|APIs\\TranslateAPI\\TranslateAPI.csproj|solutionrelative:apis\\translateapi\\controllers\\translatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\VoiceAPI\\Controllers\\VoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ArticleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\TranslateAPI\\Controllers\\TranslateController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\TranslateAPI\\TranslateAPI.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ParagraphController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Hadary\\Personal\\Learn\\VideoAPI\\Controllers\\VideoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AD376DE-0F55-42E0-98D9-ECE8D77F785C}|APIs\\TranslateAPI\\TranslateAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\translateapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AD376DE-0F55-42E0-98D9-ECE8D77F785C}|APIs\\TranslateAPI\\TranslateAPI.csproj|solutionrelative:apis\\translateapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,135 +63,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LanguageServices",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\Services\\LanguageServices\\LanguageServices.csproj",
-              "RelativeDocumentMoniker": "Services\\LanguageServices\\LanguageServices.csproj",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\Services\\LanguageServices\\LanguageServices.csproj*",
-              "RelativeToolTip": "Services\\LanguageServices\\LanguageServices.csproj*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T01:48:07.176Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Program.cs",
+              "RelativeDocumentMoniker": "APIs\\TextAPI\\Program.cs",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Program.cs",
+              "RelativeToolTip": "APIs\\TextAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:16:14.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContentAPI",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\ContentAPI\\ContentAPI.csproj",
-              "RelativeDocumentMoniker": "APIs\\ContentAPI\\ContentAPI.csproj",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\ContentAPI\\ContentAPI.csproj",
-              "RelativeToolTip": "APIs\\ContentAPI\\ContentAPI.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-23T01:45:27.626Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "APIs\\TextAPI\\appsettings.json",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\appsettings.json",
+              "RelativeToolTip": "APIs\\TextAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T00:12:22.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "APIs\\TextAPI\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "APIs\\TextAPI\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:10:03.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Program.cs",
+              "RelativeDocumentMoniker": "APIs\\TranslateAPI\\Program.cs",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Program.cs",
+              "RelativeToolTip": "APIs\\TranslateAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T23:55:39.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ArticlesCreator.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Article\\ArticlesCreator.cs",
-              "RelativeDocumentMoniker": "..\\ContentProcessing\\Article\\ArticlesCreator.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Article\\ArticlesCreator.cs",
-              "RelativeToolTip": "..\\ContentProcessing\\Article\\ArticlesCreator.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:16:24.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VoiceController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\VoiceAPI\\Controllers\\VoiceController.cs",
-              "RelativeDocumentMoniker": "..\\VoiceAPI\\Controllers\\VoiceController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\VoiceAPI\\Controllers\\VoiceController.cs",
-              "RelativeToolTip": "..\\VoiceAPI\\Controllers\\VoiceController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:32:48.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArticleController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ArticleController.cs",
-              "RelativeDocumentMoniker": "..\\Learn\\Controllers\\ArticleController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ArticleController.cs",
-              "RelativeToolTip": "..\\Learn\\Controllers\\ArticleController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:55:35.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "TranslateController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\TranslateAPI\\Controllers\\TranslateController.cs",
-              "RelativeDocumentMoniker": "..\\TranslateAPI\\Controllers\\TranslateController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\TranslateAPI\\Controllers\\TranslateController.cs",
-              "RelativeToolTip": "..\\TranslateAPI\\Controllers\\TranslateController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
+              "RelativeDocumentMoniker": "APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
+              "RelativeToolTip": "APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:36:01.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TranslateAPI.http",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\TranslateAPI\\TranslateAPI.http",
-              "RelativeDocumentMoniker": "..\\TranslateAPI\\TranslateAPI.http",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\TranslateAPI\\TranslateAPI.http",
-              "RelativeToolTip": "..\\TranslateAPI\\TranslateAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-19T01:36:07.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContentController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\ContentAPI\\Controllers\\ContentController.cs",
-              "RelativeDocumentMoniker": "..\\ContentAPI\\Controllers\\ContentController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\ContentAPI\\Controllers\\ContentController.cs",
-              "RelativeToolTip": "..\\ContentAPI\\Controllers\\ContentController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:55:54.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ParagraphController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ParagraphController.cs",
-              "RelativeDocumentMoniker": "..\\Learn\\Controllers\\ParagraphController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\Learn\\Controllers\\ParagraphController.cs",
-              "RelativeToolTip": "..\\Learn\\Controllers\\ParagraphController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T00:03:28.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Program.cs",
-              "RelativeDocumentMoniker": "..\\ContentProcessing\\Program.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\ContentProcessing\\Program.cs",
-              "RelativeToolTip": "..\\ContentProcessing\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T01:16:21.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VideoController.cs",
-              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\VideoAPI\\Controllers\\VideoController.cs",
-              "RelativeDocumentMoniker": "..\\VideoAPI\\Controllers\\VideoController.cs",
-              "ToolTip": "C:\\Hadary\\Personal\\Learn\\VideoAPI\\Controllers\\VideoController.cs",
-              "RelativeToolTip": "..\\VideoAPI\\Controllers\\VideoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:55:28.854Z"
+              "WhenOpened": "2025-03-25T23:51:15.168Z",
+              "EditorCaption": ""
             }
           ]
         },
