@@ -32,6 +32,11 @@ namespace Learn.Controllers
             }
             return BadRequest();  
         }
+        [HttpGet("get-favourites")]
+        public async Task<IActionResult> GetFavourizedWords()
+        {
+            return Ok(await _repository.Words.Where(x => x.Favourite).ToListAsync());
+        }
         [HttpGet("by-id/{id}")]
         public Word GetNextWord(int id)
         {
@@ -47,6 +52,7 @@ namespace Learn.Controllers
         {
             return _repository.Words.GroupBy(x => x.Group).Select(x => x.Key).ToList() ?? new List<string>();
         }
+        
         #endregion
         #region Post
         [HttpPost]

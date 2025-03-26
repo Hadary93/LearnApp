@@ -85,6 +85,18 @@ export async function AddWord(newWord: IWord | null): Promise<boolean | undefine
     console.error("Error adding word:", error);
   }
 }
+export async function GetFavourites(): Promise<IWord[] | undefined> {
+  try {
+    const response = await fetch(`${textWordAPI}/get-favourites`);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return await response.json() as IWord[];
+  } catch (error) {
+    console.error("Error adding word:", error);
+  }
+}
 //#endregion
 
 //#region Sentence
