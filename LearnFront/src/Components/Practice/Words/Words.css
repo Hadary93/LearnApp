@@ -21,3 +21,11 @@
 .ant-card:hover{
   border-color: var(--theme-color);
 }
+
+.next-button{
+  position: fixed;
+  left: 90%;
+  top: 40%;
+  width: 150px;
+  height: 50px;
+}

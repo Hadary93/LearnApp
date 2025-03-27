@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Hadary\\Personal\\Learn\\LearnBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FEB850D-2388-4745-BF9D-ACFEF46F1166}|APIs\\TextAPI\\TextAPI.csproj|solutionrelative:apis\\textapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AD376DE-0F55-42E0-98D9-ECE8D77F785C}|APIs\\TranslateAPI\\TranslateAPI.csproj|c:\\hadary\\personal\\learn\\learnback\\apis\\translateapi\\controllers\\translatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,19 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WordController.cs",
+              "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Controllers\\WordController.cs",
+              "RelativeDocumentMoniker": "APIs\\TextAPI\\Controllers\\WordController.cs",
+              "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Controllers\\WordController.cs",
+              "RelativeToolTip": "APIs\\TextAPI\\Controllers\\WordController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwCYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:36:24.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Program.cs",
               "RelativeDocumentMoniker": "APIs\\TextAPI\\Program.cs",
               "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Program.cs",
               "RelativeToolTip": "APIs\\TextAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T00:16:14.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\appsettings.json",
               "RelativeDocumentMoniker": "APIs\\TextAPI\\appsettings.json",
@@ -83,8 +100,7 @@
               "RelativeToolTip": "APIs\\TextAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-26T00:12:22.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T00:12:22.726Z"
             },
             {
               "$type": "Document",
@@ -94,14 +110,14 @@
               "RelativeDocumentMoniker": "APIs\\TextAPI\\Controllers\\ArticleController.cs",
               "ToolTip": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TextAPI\\Controllers\\ArticleController.cs",
               "RelativeToolTip": "APIs\\TextAPI\\Controllers\\ArticleController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T00:10:03.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Program.cs",
               "RelativeDocumentMoniker": "APIs\\TranslateAPI\\Program.cs",
@@ -109,12 +125,11 @@
               "RelativeToolTip": "APIs\\TranslateAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T23:55:39.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T23:55:39.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TranslateController.cs",
               "DocumentMoniker": "C:\\Hadary\\Personal\\Learn\\LearnBack\\APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
               "RelativeDocumentMoniker": "APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
@@ -122,8 +137,7 @@
               "RelativeToolTip": "APIs\\TranslateAPI\\Controllers\\TranslateController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwEQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T23:51:15.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T23:51:15.168Z"
             }
           ]
         },

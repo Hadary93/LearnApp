@@ -85,9 +85,9 @@ export async function AddWord(newWord: IWord | null): Promise<boolean | undefine
     console.error("Error adding word:", error);
   }
 }
-export async function GetFavourites(): Promise<IWord[] | undefined> {
+export async function GetFavourites(start:number,count:number): Promise<IWord[] | undefined> {
   try {
-    const response = await fetch(`${textWordAPI}/get-favourites`);
+    const response = await fetch(`${textWordAPI}/get-favourites/${start}/${count}`);
 
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -100,14 +100,26 @@ export async function GetFavourites(): Promise<IWord[] | undefined> {
 //#endregion
 
 //#region Sentence
-export async function GetSentences(word:string|undefined): Promise<ISentence[] | undefined> {
+export async function GetSentences(): Promise<ISentence[] | undefined> {
   try {
-    const response = await fetch(`${textSentenceAPI}/${word}`);
+    const response = await fetch(`${textSentenceAPI}`);
       
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     return await response.json() as ISentence[];
+  } catch (error) {
+    console.error("Error getting sentences:", error);
+  }
+}
+export async function GeRandomSentence(): Promise<ISentence | undefined> {
+  try {
+    const response = await fetch(`${textSentenceAPI}/random-sentence`);
+      
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return await response.json() as ISentence;
   } catch (error) {
     console.error("Error getting sentences:", error);
   }

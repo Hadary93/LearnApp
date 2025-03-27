@@ -32,10 +32,14 @@ namespace Learn.Controllers
             }
             return BadRequest();  
         }
-        [HttpGet("get-favourites")]
-        public async Task<IActionResult> GetFavourizedWords()
+        [HttpGet("get-favourites/{start}/{count}")]
+        public async Task<IActionResult> GetFavourizedWords(int start, int count)
         {
-            return Ok(await _repository.Words.Where(x => x.Favourite).ToListAsync());
+            return Ok(await _repository.Words.Where(x => x.Favourite)
+            .GroupBy(x => x.WordText)
+            .Select(g => g.First())
+            .Skip(start)
+            .Take(count).ToListAsync());
         }
         [HttpGet("by-id/{id}")]
         public Word GetNextWord(int id)
